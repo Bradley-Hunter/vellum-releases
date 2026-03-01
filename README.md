@@ -56,9 +56,90 @@ Vellum includes built-in auto-updates — once installed, you'll be notified whe
 - **macOS** 11 (Big Sur) or later
 - **Linux** — Ubuntu 20.04+, Fedora 33+, or equivalent (x64)
 
-## Feedback & Issues
+## Reporting Bugs & Pain Points
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/Bradley-Hunter/vellum-releases/issues).
+Found something broken or frustrating? [Open an issue](https://github.com/Bradley-Hunter/vellum-releases/issues/new) using one of the templates below.
+
+### Before You Report
+
+1. **Update to the latest version.** Your issue may already be fixed. Check your version in the About panel.
+2. **Search [existing issues](https://github.com/Bradley-Hunter/vellum-releases/issues)** to avoid duplicates. If yours already exists, add a thumbs-up reaction and leave a comment with any extra details.
+
+---
+
+### Bug Report Template
+
+Use this format when something is broken or not working as expected. Copy the template below into your issue body.
+
+```
+**Vellum Version:** (e.g. 0.10.8)
+**OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
+**Install Method:** (installer, AppImage, .deb, .snap, .dmg)
+
+### Description
+A clear, concise summary of the bug.
+
+### Steps to Reproduce
+1. Go to '...'
+2. Click on '...'
+3. Scroll down to '...'
+4. Observe '...'
+
+### Expected Behavior
+What you expected to happen.
+
+### Actual Behavior
+What actually happened instead.
+
+### Screenshots / Recordings
+If applicable, drag and drop images or screen recordings here.
+
+### Additional Context
+Any other relevant details — error messages, URLs that trigger the issue,
+whether it happens every time or only sometimes, etc.
+```
+
+**Title format:** Prefix with **\[Bug\]** and use a short, specific description.
+
+| Good Title | Bad Title |
+|---|---|
+| [Bug] Bookmarks disappear after renaming a workspace | Bug with bookmarks |
+| [Bug] Split pane does not resize below 300px | UI is broken |
+| [Bug] Cloud sync fails silently on slow connections | Sync doesn't work |
+
+---
+
+### Pain Point Template
+
+A pain point isn't a bug — it's something that works but feels slow, confusing, or awkward. These reports are just as valuable. Copy the template below into your issue body.
+
+```
+**Vellum Version:** (e.g. 0.10.8)
+**OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
+
+### What I Was Trying to Do
+Describe the task or goal you had in mind.
+
+### What Made It Difficult
+Explain what about the current experience was frustrating or inefficient.
+
+### Suggested Improvement (Optional)
+If you have an idea for how it could be better, describe it here.
+
+### Screenshots / Recordings
+If applicable, drag and drop images or screen recordings here.
+```
+
+**Title format:** Prefix with **\[Pain Point\]** (e.g. `[Pain Point] No way to reorder bookmarks without drag-and-drop`).
+
+---
+
+### General Tips
+
+- **One issue per report.** Don't combine multiple problems into a single issue.
+- **Be specific.** "It crashes when I press Ctrl+D on a `file://` URL" is actionable. "It crashes sometimes" is not.
+- **Include the URL if relevant.** Some issues only happen on certain sites.
+- **Mention frequency.** Does it happen every time, or only occasionally?
 
 ## License
 
