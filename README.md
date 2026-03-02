@@ -36,7 +36,7 @@ Vellum includes built-in auto-updates — once installed, you'll be notified whe
 
 **Tabbed Browsing with Workspaces** — Organize your tabs into named workspaces. Create, rename, and switch between workspaces to keep browsing sessions separate and focused.
 
-**Split-Pane Tiling** — View two pages side-by-side with vertical or horizontal split panes. Great for reference material, comparisons, or multitasking.
+**Split-Pane Tiling** — View up to four pages side-by-side with split panes in a 2x2 grid. Great for reference material, comparisons, or multitasking.
 
 **Bookmarks & Folders** — Save, organize, and search bookmarks. Create folders, drag-and-drop to rearrange, and quickly bookmark the current page with `Ctrl+D`.
 
@@ -48,6 +48,12 @@ Vellum includes built-in auto-updates — once installed, you'll be notified whe
 
 **Built-in Text Editor** — A lightweight editor accessible at `vellum://editor` with open, save, and save-as support.
 
+**Auto-Updates** — Vellum checks for new versions automatically and downloads updates in the background. Just click "Restart to Update" when ready.
+
+**In-App Issue Reporting** — Submit bug reports and pain points directly from the menu. Environment info is collected automatically and issues are filed to GitHub on your behalf.
+
+**Cache & Data Clearing** — Clear cached assets, cookies, or all site data with one click.
+
 **Session Persistence** — Your workspaces, tabs, and window state are saved automatically and restored on launch.
 
 ## System Requirements
@@ -56,13 +62,33 @@ Vellum includes built-in auto-updates — once installed, you'll be notified whe
 - **macOS** 11 (Big Sur) or later
 - **Linux** — Ubuntu 20.04+, Fedora 33+, or equivalent (x64)
 
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+T` | New workspace |
+| `Ctrl+W` | Close active pane/workspace |
+| `Ctrl+Tab` / `Ctrl+Shift+Tab` | Cycle workspaces |
+| `Ctrl+L` | Focus address bar |
+| `Ctrl+D` | Bookmark current page |
+| `F5` | Refresh page |
+| `Ctrl+O` | Open file (editor) |
+| `Ctrl+S` / `Ctrl+Shift+S` | Save / Save As (editor) |
+
+On macOS, use `Cmd` instead of `Ctrl`.
+
 ## Reporting Bugs & Pain Points
 
-Found something broken or frustrating? [Open an issue](https://github.com/Bradley-Hunter/vellum-releases/issues/new) using one of the templates below.
+Found something broken or frustrating? You can report it in two ways:
+
+1. **In-app** — Open the menu (three dots) → "Report an Issue". Fill out the form and submit. Your environment info is collected automatically and the issue is created on GitHub for you. Requires a Vellum account.
+2. **GitHub** — [Open an issue](https://github.com/Bradley-Hunter/vellum-releases/issues/new) directly using one of the templates below.
+
+To attach screenshots or recordings, email them to `vellumissuereporting@gmail.com` with the issue title as the subject.
 
 ### Before You Report
 
-1. **Update to the latest version.** Your issue may already be fixed. Check your version in the About panel.
+1. **Update to the latest version.** Your issue may already be fixed. Check your version in the menu → Updates panel.
 2. **Search [existing issues](https://github.com/Bradley-Hunter/vellum-releases/issues)** to avoid duplicates. If yours already exists, add a thumbs-up reaction and leave a comment with any extra details.
 
 ---
@@ -72,7 +98,7 @@ Found something broken or frustrating? [Open an issue](https://github.com/Bradle
 Use this format when something is broken or not working as expected. Copy the template below into your issue body.
 
 ```
-**Vellum Version:** (e.g. 0.10.8)
+**Vellum Version:** (e.g. 0.11.0)
 **OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
 **Install Method:** (installer, AppImage, .deb, .snap, .dmg)
 
@@ -114,7 +140,7 @@ whether it happens every time or only sometimes, etc.
 A pain point isn't a bug — it's something that works but feels slow, confusing, or awkward. These reports are just as valuable. Copy the template below into your issue body.
 
 ```
-**Vellum Version:** (e.g. 0.10.8)
+**Vellum Version:** (e.g. 0.11.0)
 **OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
 
 ### What I Was Trying to Do
