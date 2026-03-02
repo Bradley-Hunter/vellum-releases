@@ -44,6 +44,12 @@ Vellum includes built-in auto-updates — once installed, you'll be notified whe
 
 **Cloud Sync** — Optionally create an account to sync bookmarks, history, and settings across devices. See what tabs are open on your other machines.
 
+**Send Tab to Device** — Send the current tab to any other device signed into the same account. The tab opens automatically in a new workspace on the receiving device — even if it wasn't online when you sent it.
+
+**Password Reset** — Forgot your password? Request a reset link via email and set a new password in your browser.
+
+**Account Management** — Delete your account and all synced data at any time from the Account panel.
+
 **Site Permissions** — Granular per-site control over camera, microphone, geolocation, notifications, screen sharing, clipboard, and more.
 
 **Built-in Text Editor** — A lightweight editor accessible at `vellum://editor` with open, save, and save-as support.
@@ -98,7 +104,7 @@ To attach screenshots or recordings, email them to `vellumissuereporting@gmail.c
 Use this format when something is broken or not working as expected. Copy the template below into your issue body.
 
 ```
-**Vellum Version:** (e.g. 0.11.0)
+**Vellum Version:** (e.g. 0.12.3)
 **OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
 **Install Method:** (installer, AppImage, .deb, .snap, .dmg)
 
@@ -140,7 +146,7 @@ whether it happens every time or only sometimes, etc.
 A pain point isn't a bug — it's something that works but feels slow, confusing, or awkward. These reports are just as valuable. Copy the template below into your issue body.
 
 ```
-**Vellum Version:** (e.g. 0.11.0)
+**Vellum Version:** (e.g. 0.12.3)
 **OS:** (e.g. Windows 11, macOS 14 Sonoma, Ubuntu 24.04)
 
 ### What I Was Trying to Do
